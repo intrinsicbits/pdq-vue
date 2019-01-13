@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
+import VueSkycons from 'vue-skycon'
+Vue.use(VueSkycons)
 
 Vue.config.productionTip = false
 
