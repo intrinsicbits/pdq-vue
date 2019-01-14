@@ -46,13 +46,9 @@ export default {
   },
   computed: {
     todayWeather () {
-      console.log('todayWeather')
-      console.log(this.forecast.currently)
       return this.forecast.currently || []
     },
     dailyWeather () {
-      console.log('dailyWeather')
-      console.log(this.forecast.daily)
       return this.forecast.daily ? this.forecast.daily.data : []
     }
   },
@@ -66,7 +62,6 @@ export default {
       request.get(FORECAST_URI, function(err, response, body) {
         var json = JSON.parse(body)
         vm.forecast = json
-        console.log(vm.forecast)
       })
     },
     tick() {

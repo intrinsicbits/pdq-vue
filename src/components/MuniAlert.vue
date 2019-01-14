@@ -32,12 +32,10 @@ export default {
   },
   methods: {
     getMuniSchedule() {
-      console.log('getMuniSchedule')
       var vm = this;
       const MUNI_URI='http://localhost:3000/v1/muni'
       request.get(MUNI_URI, function(err, response, body) {
         const json = JSON.parse(body)
-        console.log('JSON',json)
         vm.muni = json
       })
     },
