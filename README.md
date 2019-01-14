@@ -10,7 +10,7 @@ A home info dashboard for 1920 x 1080 screens.
 
 ## Project setup
 
-The client requires pdq-api to be running: https://github.com/intrinsicbits/pdq-api
+This client requires `pdq-api` to be running: https://github.com/intrinsicbits/pdq-api
 
 ```
 npm install
