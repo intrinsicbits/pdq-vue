@@ -2,11 +2,13 @@
 
 A home info dashboard for 1920 x 1080 screens.
 
-- Muni Times
+- NextBus Schedules
 - Weather Forecast with Skycons
-- World Clock
+- World Clock with dual-time
 
 ![image](https://user-images.githubusercontent.com/67282/51092349-08d9fa80-174b-11e9-8105-0d7c72c90ef5.png)
+
+A setup that shows bus times, weather, and world clock for Pacific time and Korea time.
 
 ## Project setup
 
