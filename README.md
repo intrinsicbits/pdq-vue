@@ -8,6 +8,7 @@ A home info dashboard for 1920 x 1080 screens.
 
 Todo List
 
+- Prevent loading NaN screen, hide until we have data
 - A night vision mode that will turn the background black and use red for all text and icon displays
 - Scheduled rotating background images
 - Stock Index / Bitcoin price module
