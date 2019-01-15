@@ -6,6 +6,12 @@ A home info dashboard for 1920 x 1080 screens.
 - Weather Forecast with Skycons
 - World Clock with dual-time
 
+Todo List
+
+- A night vision mode that will turn the background black and use red for all text and icon displays
+- Scheduled rotating background images
+- Stock Index / Bitcoin price module
+
 ![image](https://user-images.githubusercontent.com/67282/51092349-08d9fa80-174b-11e9-8105-0d7c72c90ef5.png)
 
 A setup that shows bus times, weather, and world clock for Pacific time and Korea time.
