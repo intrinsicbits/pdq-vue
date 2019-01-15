@@ -2,16 +2,21 @@
   <div class="weather grouping">
 
     <div class="current-temp">
+      
       <div class="daypod feature">
         <skycon :condition="todayWeather.icon" width="144" height="144" color="#EFEFEF"></skycon>
       </div>
+
       {{ parseInt(todayWeather.temperature, 10) }}&deg;
       {{ parseInt((todayWeather.temperature - 32) / 1.8000, 10) }}&deg;
-      <br>
-      <span class="text-forecast">
-        Rain tomorrow through Thursday, with high temperatures rising to 59°F next Sunday
-      </span>
+      
+      <div class="text-forecast">
+        {{todayWeather.summary}}
+      </div>
+
     </div>
+
+    
 
     <div class="daypod" v-for="(day) in dailyWeather" :key="day.date">
       <div class="skycon">
@@ -62,6 +67,7 @@ export default {
       request.get(FORECAST_URI, function(err, response, body) {
         var json = JSON.parse(body)
         vm.forecast = json
+        // console.log(vm.forecast)
       })
     },
     tick() {
@@ -94,6 +100,8 @@ export default {
   border-radius 28px
 }
 
+
+
 .daypod canvas {
   width 92px
   margin 24px 24px 0 24px
@@ -115,8 +123,10 @@ export default {
   padding 0
   margin 0
   font-size 32px
-  float left
-  line-height 1.5
+  line-height 1
+  height 56px
+  max-width 700px
+  
 }
 
 .weather-temps {
