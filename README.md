@@ -12,6 +12,7 @@ Todo List
 - A night vision mode that will turn the background black and use red for all text and icon displays
 - Scheduled rotating background images
 - Stock Index / Bitcoin price module
+- Grid Calendar Module - a subtle grid of all the days of the year with the current day highlighted
 
 ![image](https://user-images.githubusercontent.com/67282/51092349-08d9fa80-174b-11e9-8105-0d7c72c90ef5.png)
 
